@@ -17,7 +17,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 100px 50px 150px;
+    padding: 50px 0px ;
+    max-width: 1150px;
+    margin: 0 auto;
+    width: 100%;
 }
 .navigation p{
     font-size: 28px;
@@ -26,7 +29,7 @@ body{
 .btn-1{
     font-family: "Azeret Mono", monospace;
     font-size: 20px;
-    padding: 20px;
+    padding: 15px 20px;
     border-radius: 10px;
     border: 1px solid #0c1323;
     background-color: #ffffff;
@@ -43,9 +46,10 @@ body{
     justify-content: center;
     align-items: center;text-align: center;
     background-image: url('assets/Hero-bg.png');
-    background-size: auto;
+    background-size: 1400px;
     background-position: center; 
-    padding: 100px; 
+    background-repeat: no-repeat;
+    padding: 25px ;
 }
 .section-banner img {
     height: 240px;
@@ -160,6 +164,7 @@ body{
 }
 .inspiration header{
     max-width: 840px;
+    width: 100%;
 }
 .inspiration h2 {
     font-size: 32px;
@@ -182,4 +187,77 @@ body{
 .inspiration iframe{
     border-radius: 20px;
     max-width: 1140px;
+}
+
+
+/* Current target section is here */
+.target-section {
+    text-align: center;
+    padding: 40px;
+}
+.target-section div{
+    max-width: 840px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.card img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: inline-block;
+    color: #000000;
+}
+
+.card-html {
+    background-color: rgba(255, 76, 30, 0.05); 
+}
+
+.card-css {
+    background-color: rgba(0, 76, 232, 0.05); 
+}
+
+.card-js {
+    background-color: rgba(255, 223, 0, 0.05); 
 }
