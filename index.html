@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <!-- Top Bar starts here -->
+        <!-- Top section starts here -->
         <nav class="navigation">
             <p>Zabir.A</p>
             <button class="btn-1">Download Resume</button>
@@ -29,95 +29,101 @@
                 </p>
                 <button>Contact with me</button>
             </div>
-        </section> 
-        <!-- Banner section ends here -->
+        </section>
     </header>
 
     <main>
         <!-- Why Web Development?? section starts here. -->
         <section class="section-web-development">
-            <Header> <!--Section heading-->
+            <div class="section-heading"> <!--Section heading-->
                 <h2>
                     Why Web Development??
                 </h2>
                 <p>
                     Web development allows me to transform ideas into reality, offering endless possibilities for creativity and problem-solving in today's digital world.
                 </p>
-            </Header>
+            </div>
 
-            <article> <!--Section card no-1-->
-                <div>
+            <!--Web-Dev card no-1-->
+            <div class="web-dev-card"> 
+                <div class="web-dev-card-width">
                     <h3>I will Do Coding and Change The World</h3>
                     <p>
                         Through coding, I aspire to create solutions that improve lives, from making information more accessible to empowering businesses with technology.
                     </p>
                     <button class="btn-2">Learn More</button>
                 </div>
-                <img src="assets/Layer_1.png" alt="Developer Creating System" class="section-web-development-image">
-            </article>
+                <img src="assets/Layer_1.png" alt="Developer Creating System">
+            </div>
 
-            <article id="card-2"> <!--Section card no-2-->
-                <img src="assets/Group 3.png" alt="Developer Creating System" class="section-web-development-image">
-                <div>
+            <!--Web-Dev card no-2-->
+            <div class="web-dev-card" id="web-dev-card-2"> 
+                <img src="assets/Group 3.png" alt="Developer Creating System" >
+                <div class="web-dev-card-width">
                     <h3>I will help People by creating Modern Web System</h3>
                     <p>
                         I aim to build innovative web platforms that streamline processes and enhance user experiences in a rapidly evolving digital landscape.
                     </p>
                     <button class="btn-2">Learn More</button>
                 </div>
-            </article>
+            </div>
 
-            <article><!--Section card no-3-->
-                <div>
+            <!--Web-Dev card no-3-->
+            <div class="web-dev-card">
+                <div class="web-dev-card-width">
                     <h3>I will Do Coding and Change The World</h3>
                     <p>
                         With each project, my goal is to craft code that addresses real-world challenges and drives positive change in our communities.
                     </p>
                     <button class="btn-2">Learn More</button>
                 </div>
-                <img src="assets/Group 4.png" alt="Developer Coding" class="section-web-development-image">
-            </article>
+                <img src="assets/Group 4.png" alt="Developer Coding" >
+            </div>
         </section>
 
         <!-- Inspiration section starts here. -->
         <section class="inspiration">
-            <header>
+            <div class="section-heading">
                 <h2>
                     My Inspiration
                 </h2>
                 <p>
                     My passion for web development is fueled by the teachings of Jhankar Mahbub and the incredible community at Programming Hero. Their approach to simplifying complex concepts and encouraging hands-on learning has inspired me to pursue a career in tech. They have shown me how coding can be both impactful and enjoyable, motivating me to keep pushing boundaries in my journey as a developer.
                 </p>
-            </header>
+            </div>
 
-            <!-- YouTube video section starts here -->
+            <!--video section starts here. -->
             <div id="video-container">
                 <iframe width="1150" height="614" src="https://www.youtube.com/embed/DGHn2uOAVCE?si=olWimOxXsLyb4uKe" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
 
         <!-- Current Target Section is Here -->
-        <section class="target-section">
-            <div>
+        <section class="section-target">
+            <div class="section-heading">
                 <h2>My Current Target</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p> 
             </div>    
-            <div class="card-container">
-                <div class="card card-html">
+            
+            <div class="target-card-container">
+                <!-- HTML Card -->
+                <div class="target-card" id="card-html">
                     <img src="assets/html.png" alt="HTML Logo">
                     <h3>HTML</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing.</p>
                     <a href="#">Learn More</a>
                 </div>
     
-                <div class="card card-css">
+                <!-- CSS Card -->
+                <div class="target-card" id="card-css">
                     <img src="assets/css.png" alt="CSS Logo">
                     <h3>CSS</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing.</p>
                     <a href="#">Learn More</a>
                 </div>
     
-                <div class="card card-js">
+                <!-- JS Card -->
+                <div class="target-card" id="card-js">
                     <img src="assets/js.png" alt="JavaScript Logo">
                     <h3>JavaScript</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing.</p>
@@ -125,6 +131,56 @@
                 </div>
             </div>
         </section>
+
+        <!-- Next Target Section is Here -->
+        <section class="next-target">
+            <div class="section-heading">
+                <h2>My Next Target</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            </div>
+    
+            <div class="next-target-card-container">
+                <!-- ReactJS Card -->
+                <div class="next-target-card">
+                    <img src="assets/react.png" alt="ReactJS Logo">
+                    <article>
+                        <h3>ReactJS</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <a href="#">Learn More</a>
+                    </article>
+                </div>
+    
+                <!-- NodeJS Card -->
+                <div class="next-target-card">
+                    <img src="assets/nodejs.png" alt="NodeJS Logo">
+                    <article>
+                        <h3>NodeJS</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <a href="#">Learn More</a>
+                    </article>
+                </div>
+    
+                <!-- MongoDB Card -->
+                <div class="next-target-card">
+                    <img src="assets/mongodb.png" alt="MongoDB Logo">
+                    <article>
+                        <h3>MongoDB</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <a href="#">Learn More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Section is here -->
+         <section>
+            <div>
+                <h2>I Need Support</h2>
+                <p>
+                    
+                </p>
+            </div>
+         </section>
     </main>
     <footer>
 

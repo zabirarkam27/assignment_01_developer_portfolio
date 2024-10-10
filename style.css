@@ -6,11 +6,69 @@
     margin: 0;
     padding: 0;
 }
-body{
+body {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     color: #0d1312;
 }
+h1 {
+    padding-bottom: 32px;
+    font-size: 48px;
+    font-weight: 800;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+h3 {
+    font-size: 24px;font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+p {
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+a {
+    display: inline-block;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-1{
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #0c1323;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: #f0f0f0;
+}
+
+.btn-2 {
+    display: inline-block;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #0c1323;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.btn-2:hover {
+    background-color: #f0f0f0;
+}
+.section-heading{
+    max-width: 840px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 
 /* Navigation styles is here. */
 .navigation {
@@ -26,20 +84,8 @@ body{
     font-size: 28px;
     font-weight: 800;
 }
-.btn-1{
-    font-family: "Azeret Mono", monospace;
-    font-size: 20px;
-    padding: 15px 20px;
-    border-radius: 10px;
-    border: 1px solid #0c1323;
-    background-color: #ffffff;
-    cursor: pointer;
-}
-.btn-1:hover{
-    background-color: #f0f0f0;
-}
 
-/* Banner Section style starts here. */
+/* Banner Section style is here. */
 .section-banner {
     display: flex;
     flex-direction: column;
@@ -57,16 +103,6 @@ body{
 }
 .section-banner div{
     max-width: 998px;
-}
-.section-banner h1{
-    padding-bottom: 32px;
-    font-size: 48px;
-    font-weight: 800;
-}
-.section-banner p{
-    padding-bottom: 32px;
-    font-size: 16px;
-    line-height: 1.5;
 }
 .section-banner button {
     font-family: "Azeret Mono", monospace;
@@ -99,8 +135,9 @@ body{
 }
 .section-web-development Header{
     max-width: 840px;
+    width: 100%;
 }
-.section-web-development article {
+.web-dev-card {
     display: flex;
     justify-content:space-around;
     margin: 20px;
@@ -110,49 +147,21 @@ body{
     padding: 20px;
     width: 946px;
 }
-#card-2{
-    background: linear-gradient(to right, #f8f8f8ef, #ffffff);
-    justify-content: left;
-}
-.section-web-development div {
+.web-dev-card-width {
     max-width: 550px;
     padding: 20px;
 }
-.section-web-development h2 {
-    font-size: 36px;
-    font-weight: 800;
-    margin-bottom: 20px;
+#web-dev-card-2{
+    background: linear-gradient(to right, #f8f8f8ef, #ffffff);
+    justify-content: left;
 }
-.section-web-development h3{
-    font-size: 24px;font-weight: 600;
-}
-.section-web-development p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-}
-.section-web-development-image {
+
+.section-web-development img{
     max-height: 240px;
     margin-top: 20px;
     border-radius: 5px;
 }
-.section-web-development h3{
-    font-size: 24px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-.btn-2 {
-    display: inline-block;
-    font-family: "Azeret Mono", monospace;
-    font-size: 20px;
-    padding: 10px 20px;
-    border: 1px solid #0c1323;
-    background-color: #ffffff;
-    cursor: pointer;
-}
-.btn-2:hover {
-    background-color: #f0f0f0;
-}
+
 
 /* Inspiration section is here. */
 .inspiration {
@@ -162,20 +171,7 @@ body{
     align-items: center;
     padding: 40px;
 }
-.inspiration header{
-    max-width: 840px;
-    width: 100%;
-}
-.inspiration h2 {
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 24px;
-}
-.inspiration p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 48px;
-}
+
 #video-container {
     border: 2px solid #e6e6e6;
     border-radius: 20px;
@@ -189,39 +185,22 @@ body{
     max-width: 1140px;
 }
 
-
 /* Current target section is here */
-.target-section {
+.section-target {
     text-align: center;
     padding: 40px;
 }
-.target-section div{
-    max-width: 840px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-}
-
-.card-container {
+.target-card-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1150px;
     margin: 0 auto;
     width: 100%;
+    flex-wrap: wrap; 
+    gap: 25px;
 }
-
-.card {
+.target-card {
     background-color: #f0f0f0;
     border-radius: 10px;
     padding: 20px;
@@ -229,35 +208,48 @@ p {
     flex: 1;
     margin: 0 10px;
 }
-
-.card img {
+.target-card img {
     max-width: 100px;
     height: auto;
     margin-bottom: 10px;
 }
-
-.card h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.card p {
-    margin-bottom: 20px;
-}
-
-.card a {
-    display: inline-block;
-    color: #000000;
-}
-
-.card-html {
+#card-html {
     background-color: rgba(255, 76, 30, 0.05); 
 }
 
-.card-css {
+#card-css {
     background-color: rgba(0, 76, 232, 0.05); 
 }
-
-.card-js {
+#card-js {
     background-color: rgba(255, 223, 0, 0.05); 
+}
+
+/* Next Target Section is Here */
+.next-target {
+    text-align: center;
+    padding: 40px;
+}
+.next-target-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.next-target-card {
+    border: 1px solid #dcdcdc;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1150px;
+}
+.next-target-card img {
+    max-height: 100px;
+    width: auto;
+    border-radius: 10px;
+}
+.next-target-card article {
+    text-align: left;
 }
