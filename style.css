@@ -42,7 +42,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;text-align: center;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('assets/Hero-bg.png');
     background-size: auto;
     background-position: center; 
     padding: 100px; 
@@ -82,16 +82,16 @@ body{
 
 /* Why web development section is here. */
 .section-web-development {
+    text-align: center;
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    justify-content: center;
-    text-align: center;
-    margin: 60px 150px;
-    text-align: center;
+    margin: 60px auto;
     padding: 40px;
     background-color: #f8f8f8ef;
-    border-radius: 10px; 
+    border-radius: 15px; 
+    max-width: 1150px;
+    width: 100%;
 }
 .section-web-development Header{
     max-width: 840px;
@@ -148,4 +148,38 @@ body{
 }
 .btn-2:hover {
     background-color: #f0f0f0;
+}
+
+/* Inspiration section is here. */
+.inspiration {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.inspiration header{
+    max-width: 840px;
+}
+.inspiration h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.inspiration p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 48px;
+}
+#video-container {
+    border: 2px solid #e6e6e6;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration iframe{
+    border-radius: 20px;
+    max-width: 1140px;
 }
