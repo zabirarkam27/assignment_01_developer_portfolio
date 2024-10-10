@@ -1,6 +1,7 @@
 /* Font style */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100..900&display=swap');
 
+/* Universal Style */
 *{
     box-sizing: border-box;
     margin: 0;
