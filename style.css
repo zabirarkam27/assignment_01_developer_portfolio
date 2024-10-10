@@ -41,6 +41,7 @@ a {
 .btn-1{
     font-family: "Azeret Mono", monospace;
     font-size: 20px;
+    font-weight: 600;
     padding: 15px 20px;
     border-radius: 10px;
     border: 1px solid #0c1323;
@@ -253,3 +254,85 @@ a {
 .next-target-card article {
     text-align: left;
 }
+
+/* Support section is here */
+.support-section {
+    text-align: center;
+    padding: 40px;
+    background-image: url("assets/handshake.jpg");
+    background-size: 1150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+input {
+    width: 548px;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-size: 20px;
+    color: #c5c5c5;
+}
+
+.btn-submit{
+    border: #fff;
+}
+
+
+
+/* Footer section is here */
+footer{
+    background-color: #c5c5c5;
+    background-size: 1400px;
+}
+
+#footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    width: 100%;
+    padding: 20px;
+    margin: 100px auto 0;
+    
+}
+
+.text-container{
+    text-align: center;
+}
+
+#commitment{
+    font-weight:bold;
+    font-size: 20px;
+    color: #0d1312;
+}
+.social-media-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-media-container a img {
+    width: 36px;
+    height: auto;
+}
+
+
