@@ -1,5 +1,151 @@
-/* Font style section  */
+/* Font style */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;}
+    font-optical-sizing: auto;
+    color: #0d1312;
+}
+
+/* Navigation styles is here. */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 50px 150px;
+}
+.navigation p{
+    font-size: 28px;
+    font-weight: 800;
+}
+.btn-1{
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #0c1323;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: #f0f0f0;
+}
+
+/* Banner Section style starts here. */
+.section-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;text-align: center;
+    background-image: url('../assets/Hero-bg.png');
+    background-size: auto;
+    background-position: center; 
+    padding: 100px; 
+}
+.section-banner img {
+    height: 240px;
+    margin-bottom: 32px;
+}
+.section-banner div{
+    max-width: 998px;
+}
+.section-banner h1{
+    padding-bottom: 32px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.section-banner p{
+    padding-bottom: 32px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.section-banner button {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #0c1323;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.section-banner button:hover {
+    color: #ececec;
+    background-color: #0c0c0c;
+}
+
+/* Why web development section is here. */
+.section-web-development {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin: 60px 150px;
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8ef;
+    border-radius: 10px; 
+}
+.section-web-development Header{
+    max-width: 840px;
+}
+.section-web-development article {
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+    text-align: left;
+    background: linear-gradient(to right, #ffffff, #f8f8f8ef); 
+    border-radius: 10px; 
+    padding: 20px;
+    width: 946px;
+}
+#card-2{
+    background: linear-gradient(to right, #f8f8f8ef, #ffffff);
+    justify-content: left;
+}
+.section-web-development div {
+    max-width: 550px;
+    padding: 20px;
+}
+.section-web-development h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.section-web-development h3{
+    font-size: 24px;font-weight: 600;
+}
+.section-web-development p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.section-web-development-image {
+    max-height: 240px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.section-web-development h3{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.btn-2 {
+    display: inline-block;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #0c1323;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.btn-2:hover {
+    background-color: #f0f0f0;
+}
